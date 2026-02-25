@@ -1,0 +1,37 @@
+# Core FastAPI and web framework
+fastapi
+uvicorn[standard]
+
+# Database and ORM
+sqlalchemy
+alembic
+
+# Authentication and security
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+
+# Environment variables
+python-dotenv
+
+# Email and notifications
+jinja2
+
+# HTTP client
+requests
+
+# Date/time handling
+python-dateutil
+
+# Image processing
+Pillow
+
+# Logging
+structlog
+
+# Development dependencies (optional)
+pytest
+pytest-asyncio
+black
+flake8
+mypy
